@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fef4e127-cd54-43b6-ae7c-0223c090e805" name="Default" comment="just beginning">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/test_numpy.py" afterPath="$PROJECT_DIR$/ml/test_numpy.py" />
     </list>
     <list id="fb6a973a-807c-4fe9-9d62-87b1ccec9215" name="New changelist" comment="" />
     <ignored path="InvestAnalysis.iws" />
@@ -435,7 +434,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461901455622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="just beginning">
+      <created>1461930320114</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1461930320114</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
