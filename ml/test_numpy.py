@@ -2,7 +2,9 @@
 
 import numpy as np
 from docx import Document
+from docx.document import Document as Doc
 from docx.table import  Table
+from docx.text.paragraph import Paragraph
 
 def linalg():
     a = np.array([[5,-1,2], [-2,6,9], [-7,5,-3]])
@@ -13,11 +15,16 @@ def linalg():
     print x
     print np.dot(a,x)
 
-if __name__ == "__main__":
+def readdocx():
     d = Document('20160509.docx')
     for tab in d.tables:
-        t = tab.cell(0,0).text
-        pass
+        row_count = len(tab.rows)
+        col_count = len(tab.columns)
+        for row in tab.rows:
+            for cell in row.cells:
+                print(cell.text)
     for sec in d.sections:
         print sec.start_type
+
+if __name__ == "__main__":
     pass
